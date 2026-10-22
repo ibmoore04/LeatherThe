@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leather The | Bespoke & Wholesale Leather Goods | Sialkot to the World</title>
+  <meta name="description" content="Leather The is a design-oriented leather brand and manufacturer in Sialkot, Pakistan. Premium leather jackets, winter hoodies, and gloves. Worldwide shipping with lowest MOQ.">
+  <meta name="keywords" content="Leather The, leather jackets, winter hoodies, leather gloves, Sialkot leather manufacturer, wholesale leather, flame embroidered jacket, biker jacket, driving gloves">
+  <meta name="author" content="Leather The">
+
+  <!-- Open Graph / Social Meta Tags -->
+  <meta property="og:title" content="Leather The | Luxury Bespoke & Wholesale Leather Goods">
+  <meta property="og:description" content="Handcrafted leather jackets, heavyweight winter hoodies, and precision gloves from Sialkot, Pakistan. Shipped worldwide with lowest MOQ.">
+  <meta property="og:image" content="assets/images/hero-editorial.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/images/LeatherThe-logo.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Custom Cursor Elements -->
+  <div class="custom-cursor" id="customCursor"></div>
+  <div class="custom-cursor-follower" id="cursorFollower"></div>
+
+  <!-- Subtle Ambient Leather Grain Grid -->
+  <div class="leather-grain-overlay"></div>
+
+  <!-- ==========================================================================
+       NAVIGATION HEADER
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="#hero" class="brand-emblem" id="brandLogoLink">
+        <img src="assets/images/LeatherThe-logo.jpg" alt="Leather The" class="brand-crest-img">
+        <div class="brand-text-wrap">
+          <span class="brand-title">LEATHER THE</span>
+          <span class="brand-subtitle">SIALKOT • WORLDWIDE</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#catalog" class="nav-link">Catalog</a></li>
+          <li><a href="#pillars" class="nav-link">Why Us</a></li>
+          <li><a href="#bespoke" class="nav-link">Bespoke</a></li>
+          <li><a href="#craftsmanship" class="nav-link">Heritage</a></li>
+          <li><a href="#how-to-order" class="nav-link">How To Order</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Action Buttons -->
+      <div class="nav-actions">
+        <!-- Quote Builder Drawer Trigger -->
+        <button class="quote-btn-badge" id="openDrawerBtn" aria-label="Open Wholesale Quote Drawer">
+          <i class="fas fa-clipboard-list"></i>
+          <span class="quote-label-text">B2B Quote</span>
+          <span class="quote-count" id="quoteCountBadge" style="display: none;">0</span>
+        </button>
+
+        <!-- Direct WhatsApp Quick Callout (Desktop) -->
+        <a href="https://wa.me/923424974551?text=Hello%20Leather%20The!%20I%20would%20like%20to%20inquire%20about%20your%20wholesale%20catalog." 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="whatsapp-pill-btn header-wa-btn" 
+           id="headerWhatsAppBtn">
+          <i class="fab fa-whatsapp"></i>
+          <span>WhatsApp 24/7</span>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu">
+          <i class="fas fa-bars" id="mobileMenuIcon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Dedicated Mobile Navigation Drawer -->
+  <div class="mobile-nav-drawer" id="mobileNavDrawer" aria-hidden="true">
+    <div class="mobile-nav-inner">
+      <div class="mobile-nav-links">
+        <a href="#catalog" class="mobile-nav-link"><i class="fas fa-layer-group"></i> <span>Catalog (20 Items)</span></a>
+        <a href="#pillars" class="mobile-nav-link"><i class="fas fa-shield-halved"></i> <span>Why Choose Us</span></a>
+        <a href="#bespoke" class="mobile-nav-link"><i class="fas fa-sliders"></i> <span>Bespoke & OEM Studio</span></a>
+        <a href="#craftsmanship" class="mobile-nav-link"><i class="fas fa-certificate"></i> <span>Sialkot Heritage</span></a>
+        <a href="#how-to-order" class="mobile-nav-link"><i class="fas fa-list-check"></i> <span>How To Order</span></a>
+        <a href="#contact" class="mobile-nav-link"><i class="fas fa-envelope"></i> <span>Contact Direct</span></a>
+      </div>
+      <div class="mobile-nav-footer">
+        <a href="https://wa.me/923424974551?text=Hello%20Leather%20The!%20I%20would%20like%20to%20inquire%20about%20your%20wholesale%20catalog." 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="whatsapp-pill-btn mobile-wa-btn">
+          <i class="fab fa-whatsapp"></i>
+          <span>Chat on WhatsApp (24/7 Direct)</span>
+        </a>
+        <div class="mobile-brand-meta">
+          <span>Small Industrial Estate, Sialkot, Pakistan</span>
+          <span>leatherthe78@gmail.com</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-glow"></div>
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Hero Text -->
+          <div class="hero-content reveal-on-scroll">
+            <div class="hero-eyebrow">
+              <span class="eyebrow-dot"></span>
+              <span>Sialkot, Pakistan • Shipped Worldwide</span>
+            </div>
+
+            <h1 class="hero-title">
+              HERITAGE LEATHER <br>
+              <span class="title-highlight">CRAFTED FOR ICONS.</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Leather The is a design-oriented and innovative leather brand. We engineer premium leather jackets, winter hoodies, and artisan gloves for men and women—fusing generations of Sialkot leather mastery with bold contemporary streetwear contours.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#catalog" class="btn-primary" id="heroExploreBtn">
+                <span>Explore 2026 Catalog</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+
+              <a href="https://wa.me/923424974551?text=Hello%20Leather%20The!%20I%20am%20reviewing%20your%20product%20catalog%20and%20would%20like%20to%20discuss%20a%20wholesale%20order." 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="btn-outline" 
+                 id="heroWhatsAppCta">
+                <i class="fab fa-whatsapp" style="color: var(--whatsapp-green);"></i>
+                <span>Direct WhatsApp Inquiry</span>
+              </a>
+            </div>
+
+            <!-- Trust Metrics Ribbon (PDF Page 2 Pillars) -->
+            <div class="hero-trust-ribbon">
+              <div class="trust-item">
+                <span class="trust-number">Lowest</span>
+                <span class="trust-label">Industry MOQ</span>
+              </div>
+              <div class="trust-item">
+                <span class="trust-number">Global</span>
+                <span class="trust-label">Express Delivery</span>
+              </div>
+              <div class="trust-item">
+                <span class="trust-number">24/7</span>
+                <span class="trust-label">Client Support</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero 3D Card Showcase -->
+          <div class="hero-showcase-wrap reveal-on-scroll stagger-2">
+            <div class="hero-3d-card" id="hero3dCard">
+              <div class="hero-image-box">
+                <img src="assets/images/hero-editorial.jpg" alt="Leather The Editorial Lookbook" class="hero-card-img">
+                <div class="hero-floating-pill">
+                  <i class="fas fa-certificate" style="color: var(--gold); margin-right: 4px;"></i>
+                  2026 Collection
+                </div>
+                <div class="hero-card-overlay">
+                  <span class="hero-card-code">FLAGSHIP SHOWCASE • LT-01</span>
+                  <h3 class="hero-card-title">Black Flame Embroidered Leather Jacket</h3>
+                  <p class="hero-card-tagline">Grade-A Full-Grain Lambskin • Contrast Flame Embroidery • Bestseller</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         WHY CHOOSE US / 4 PILLARS (PDF Page 2)
+         ========================================================================== -->
+    <section class="section-padding" id="pillars" style="border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+      <div class="container">
+        <div class="section-head reveal-on-scroll">
+          <span class="section-tag">Direct Factory Excellence</span>
+          <h2 class="section-title">Why Choose Leather The</h2>
+          <p class="section-desc">
+            We bridge the gap between historic Sialkot leather artisanship and modern global fashion commerce with unrivaled speed, flexibility, and quality.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <!-- Pillar 1: Worldwide Shipping -->
+          <div class="pillar-card reveal-on-scroll stagger-1">
+            <div class="pillar-icon-box">
+              <i class="fas fa-globe-americas"></i>
+            </div>
+            <h3 class="pillar-title">Worldwide Shipping</h3>
+            <p class="pillar-desc">
+              We deliver to customers all over the world with tracked air express freight (DHL, FedEx, UPS) and bulk sea logistics.
+            </p>
+          </div>
+
+          <!-- Pillar 2: Lowest MOQ -->
+          <div class="pillar-card reveal-on-scroll stagger-2">
+            <div class="pillar-icon-box">
+              <i class="fas fa-boxes-stacked"></i>
+            </div>
+            <h3 class="pillar-title">Lowest MOQ</h3>
+            <p class="pillar-desc">
+              Low minimum order quantity so you can order what you need—from boutique prototype sample runs to large commercial rollouts.
+            </p>
+          </div>
+
+          <!-- Pillar 3: 24/7 Support -->
+          <div class="pillar-card reveal-on-scroll stagger-3">
+            <div class="pillar-icon-box">
+              <i class="fas fa-headset"></i>
+            </div>
+            <h3 class="pillar-title">24/7 Support</h3>
+            <p class="pillar-desc">
+              Our customer support and factory engineering team is available around the clock via direct WhatsApp and email.
+            </p>
+          </div>
+
+          <!-- Pillar 4: Fine Quality -->
+          <div class="pillar-card reveal-on-scroll stagger-4">
+            <div class="pillar-icon-box">
+              <i class="fas fa-shield-halved"></i>
+            </div>
+            <h3 class="pillar-title">Fine Quality</h3>
+            <p class="pillar-desc">
+              Every detail matters. Each piece is meticulously inspected for quality, finish, stitching, tensile strength, and fit before dispatch.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         COMPLETE 20-PRODUCT CATALOG MATRIX (PDF Pages 3 to 7)
+         ========================================================================== -->
+    <section class="section-padding catalog-section" id="catalog">
+      <div class="container">
+        <div class="section-head reveal-on-scroll">
+          <span class="section-tag">2026 Product Catalog</span>
+          <h2 class="section-title">Explore Complete Collection</h2>
+          <p class="section-desc">
+            All 20 signature catalog designs: Men’s & Women’s Jackets, Heavyweight Winter Hoodies, and Handcrafted Leather Gloves.
+          </p>
+        </div>
+
+        <!-- Filter & Search Controls -->
+        <div class="catalog-filter-bar reveal-on-scroll">
+          <div class="catalog-search-row">
+            <div class="search-box-wrap">
+              <i class="fas fa-search search-icon-inside"></i>
+              <input type="text" 
+                     id="catalogSearchInput" 
+                     class="catalog-search-input" 
+                     placeholder="Search by code (e.g. LT-01), name, or style..." 
+                     aria-label="Search catalog products">
+            </div>
+
+            <div class="catalog-stat-counter">
+              Showing <strong id="catalogCount">20</strong> of 20 Products
+            </div>
+          </div>
+
+          <!-- View Switcher & Category Quick Nav -->
+          <div class="catalog-view-controls">
+            <!-- Category Pill Tabs -->
+            <div class="filter-tabs" role="tablist">
+              <button class="tab-btn active" data-filter="all" role="tab">All (20)</button>
+              <button class="tab-btn" data-filter="mens-jackets" role="tab">Men’s (4)</button>
+              <button class="tab-btn" data-filter="womens-jackets" role="tab">Women’s (4)</button>
+              <button class="tab-btn" data-filter="winter-hoodies" role="tab">Hoodies (4)</button>
+              <button class="tab-btn" data-filter="mens-gloves" role="tab">Men’s Gloves (4)</button>
+              <button class="tab-btn" data-filter="womens-gloves" role="tab">Women’s Gloves (4)</button>
+            </div>
+
+            <!-- View Mode Switcher -->
+            <div class="catalog-view-toggle" id="catalogViewToggle">
+              <button class="view-toggle-btn active" id="btnViewReels" data-mode="reels" title="Horizontal Category Reels (Easy Swipe)">
+                <i class="fas fa-arrows-left-right"></i> <span>Reels</span>
+              </button>
+              <button class="view-toggle-btn" id="btnViewGrid" data-mode="grid" title="2-Column Compact Grid">
+                <i class="fas fa-th-large"></i> <span>Grid</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dynamic Product Container (Supports both Reels and Grid) -->
+        <div id="productsGrid" class="products-container">
+          <!-- Populated dynamically via js/app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         BESPOKE CUSTOMIZER & OEM MANUFACTURING STUDIO
+         ========================================================================== -->
+    <section class="section-padding bespoke-section" id="bespoke">
+      <div class="container">
+        <div class="section-head reveal-on-scroll">
+          <span class="section-tag">Private Label & OEM Services</span>
+          <h2 class="section-title">Bespoke Customization Studio</h2>
+          <p class="section-desc">
+            Need custom branding, personalized embroidery, specific leather finishes, or tech-pack prototyping? We turn your brand vision into reality.
+          </p>
+        </div>
+
+        <div class="bespoke-studio-card reveal-on-scroll">
+          <!-- Interactive Studio Preview Box -->
+          <div class="studio-preview-box">
+            <img src="assets/images/craftsmanship.jpg" alt="Artisan Craftsmanship" class="studio-preview-img">
+            <div class="studio-badge-overlay">
+              <div class="studio-live-specs">
+                <div>
+                  <span>Selected Hide:</span>
+                  <strong id="liveMaterialSpec">Full-Grain Lambskin</strong>
+                </div>
+                <div>
+                  <span>Hardware:</span>
+                  <strong id="liveHardwareSpec">YKK Polished Silver</strong>
+                </div>
+                <div>
+                  <span>Crafting:</span>
+                  <strong id="liveTechniqueSpec">High-Density Flame Embroidery</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Customizer Options Panel -->
+          <div class="customizer-options">
+            <div>
+              <h3 class="option-group-title">
+                <i class="fas fa-layer-group"></i> 1. Select Leather / Fabric Grade
+              </h3>
+              <div class="option-chips">
+                <button class="chip-btn selected" data-group="material" data-val="Full-Grain Lambskin">Full-Grain Lambskin</button>
+                <button class="chip-btn" data-group="material" data-val="Heavy Bovine Cowhide">Heavy Bovine Cowhide</button>
+                <button class="chip-btn" data-group="material" data-val="Italian Calf Suede">Italian Calf Suede</button>
+                <button class="chip-btn" data-group="material" data-val="460 GSM Heavyweight Terry">460 GSM Heavyweight Terry</button>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="option-group-title">
+                <i class="fas fa-cog"></i> 2. Select Hardware & Finishes
+              </h3>
+              <div class="option-chips">
+                <button class="chip-btn selected" data-group="hardware" data-val="YKK Polished Silver">YKK Polished Silver</button>
+                <button class="chip-btn" data-group="hardware" data-val="Antique Burnished Brass">Antique Burnished Brass</button>
+                <button class="chip-btn" data-group="hardware" data-val="Matte Gunmetal Black">Matte Gunmetal Black</button>
+                <button class="chip-btn" data-group="hardware" data-val="Custom Engraved Snaps">Custom Engraved Snaps</button>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="option-group-title">
+                <i class="fas fa-palette"></i> 3. Craft & Embellishment Technique
+              </h3>
+              <div class="option-chips">
+                <button class="chip-btn selected" data-group="technique" data-val="High-Density Flame Embroidery">Flame Embroidery</button>
+                <button class="chip-btn" data-group="technique" data-val="Gothic High-Density Screenprint">Gothic Screenprint</button>
+                <button class="chip-btn" data-group="technique" data-val="Embossed / Debossed Crest">Embossed Crest</button>
+                <button class="chip-btn" data-group="technique" data-val="Web Pattern Contrast Stitching">Web Contrast Stitch</button>
+              </div>
+            </div>
+
+            <button class="btn-primary" id="btnBespokeWhatsApp" style="margin-top: 1rem; width: 100%; justify-content: center;">
+              <i class="fab fa-whatsapp" style="font-size: 1.2rem;"></i>
+              <span>Send Custom Tech Pack Specs to Factory</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SIALKOT HERITAGE & CRAFTSMANSHIP
+         ========================================================================== -->
+    <section class="section-padding craftsmanship-section" id="craftsmanship">
+      <div class="container">
+        <div class="craftsmanship-grid">
+          <div class="craftsmanship-img-wrap reveal-on-scroll">
+            <img src="assets/images/craftsmanship.jpg" alt="Artisan Leathercraft in Sialkot" class="craft-img">
+            <div class="craft-stamp">
+              Sialkot<br>Crafted<br>100%
+            </div>
+          </div>
+
+          <div class="craftsmanship-text reveal-on-scroll stagger-2">
+            <span class="section-tag">Generations of Mastery</span>
+            <h2 class="section-title">The Sialkot Leather Advantage</h2>
+            <p class="section-desc" style="margin-bottom: 1.5rem;">
+              Sialkot, Pakistan is globally recognized as the historic capital of precision leather craftsmanship. Our master cutters, skivers, and stitchers bring decades of generational knowledge to every seam.
+            </p>
+
+            <div class="craft-checkmarks">
+              <div class="check-item">
+                <div class="check-icon"><i class="fas fa-check"></i></div>
+                <div>
+                  <h4>Tannery Direct Procurement</h4>
+                  <p>Hand-selected top and full-grain hides, drum-dyed for color depth that will never crack or peel over decades of wear.</p>
+                </div>
+              </div>
+
+              <div class="check-item">
+                <div class="check-icon"><i class="fas fa-check"></i></div>
+                <div>
+                  <h4>Mil-Spec Tensile Stitching</h4>
+                  <p>Double-needle reinforced high-stress stress points, heavy-duty bonded nylon thread, and precision needle pitch.</p>
+                </div>
+              </div>
+
+              <div class="check-item">
+                <div class="check-icon"><i class="fas fa-check"></i></div>
+                <div>
+                  <h4>Individual Pre-Dispatch Quality Audit</h4>
+                  <p>Zero compromises. Every single jacket, hoodie, and glove undergoes 4-stage inspection before international packaging.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         HOW TO ORDER PROCESS (PDF Page 8)
+         ========================================================================== -->
+    <section class="section-padding" id="how-to-order" style="border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle); background: rgba(18, 14, 19, 0.5);">
+      <div class="container">
+        <div class="section-head reveal-on-scroll">
+          <span class="section-tag">Seamless B2B Inquiries</span>
+          <h2 class="section-title">How To Order</h2>
+          <p class="section-desc">
+            Directly from the factory floor to your warehouse. Fast, transparent, and hassle-free ordering in 3 simple steps.
+          </p>
+        </div>
+
+        <div class="order-steps-grid">
+          <!-- Step 1 -->
+          <div class="step-card reveal-on-scroll stagger-1">
+            <div class="step-number-badge">1</div>
+            <h3>Choose Your Products</h3>
+            <p>
+              Explore our 20 catalog products and note your desired product codes (for example <strong>LT-03</strong> Bomber or <strong>LT-01</strong> Flame Jacket). You can also click <em>"Add to B2B Quote"</em> directly on this page.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card reveal-on-scroll stagger-2">
+            <div class="step-number-badge">2</div>
+            <h3>Send Codes & Quantity</h3>
+            <p>
+              Send us the product codes, desired quantities, and your destination country on WhatsApp (<strong>+923424974551</strong>) or by email (<strong>leatherthe78@gmail.com</strong>).
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card reveal-on-scroll stagger-3">
+            <div class="step-number-badge">3</div>
+            <h3>Confirm & Worldwide Delivery</h3>
+            <p>
+              We reply immediately with availability, sample turnaround, and wholesale volume pricing. We handle door-to-door express customs and shipping worldwide.
+            </p>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;" class="reveal-on-scroll">
+          <button class="btn-primary" onclick="document.getElementById('openDrawerBtn').click()">
+            <i class="fas fa-cart-flatbed"></i>
+            <span>Launch Wholesale Order Builder</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT & SOCIAL HUB (PDF Page 8)
+         ========================================================================== -->
+    <section class="section-padding" id="contact">
+      <div class="container">
+        <div class="section-head reveal-on-scroll">
+          <span class="section-tag">Direct Factory Connection</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-desc">
+            Connect directly with Leather The management. Our sales and manufacturing engineers operate 24/7 across all global timezones.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Official Channels Card -->
+          <div class="contact-channels-card reveal-on-scroll">
+            <h3 style="font-family: var(--font-serif); font-size: 1.5rem; color: #fff; margin-bottom: 0.5rem;">Official Directory</h3>
+            <p style="font-size: 0.9rem; color: var(--cream-muted);">Reach us instantly on any of our verified communication lines:</p>
+
+            <div class="channels-list">
+              <!-- WhatsApp -->
+              <a href="https://wa.me/923424974551?text=Hello%20Leather%20The!%20I%20am%20contacting%20you%20from%20your%20website." target="_blank" rel="noopener noreferrer" class="channel-link">
+                <div class="channel-icon" style="background: rgba(37,211,102,0.15); border-color: #25d366; color: #25d366;">
+                  <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="channel-info">
+                  <h4>WhatsApp (24/7)</h4>
+                  <p>+92 342 4974551</p>
+                </div>
+              </a>
+
+              <!-- Email -->
+              <a href="mailto:leatherthe78@gmail.com?subject=Wholesale%20Catalog%20Inquiry" class="channel-link">
+                <div class="channel-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="channel-info">
+                  <h4>Direct Email</h4>
+                  <p>leatherthe78@gmail.com</p>
+                </div>
+              </a>
+
+              <!-- Instagram -->
+              <a href="https://instagram.com/leatherthe_" target="_blank" rel="noopener noreferrer" class="channel-link">
+                <div class="channel-icon" style="background: rgba(225,48,108,0.15); border-color: #e1306c; color: #e1306c;">
+                  <i class="fab fa-instagram"></i>
+                </div>
+                <div class="channel-info">
+                  <h4>Instagram</h4>
+                  <p>@leatherthe_</p>
+                </div>
+              </a>
+
+              <!-- TikTok -->
+              <a href="https://tiktok.com/@leatherthe_" target="_blank" rel="noopener noreferrer" class="channel-link">
+                <div class="channel-icon">
+                  <i class="fab fa-tiktok"></i>
+                </div>
+                <div class="channel-info">
+                  <h4>TikTok</h4>
+                  <p>@leatherthe_</p>
+                </div>
+              </a>
+
+              <!-- Facebook -->
+              <a href="https://facebook.com/share/1MuHEbki7h" target="_blank" rel="noopener noreferrer" class="channel-link" style="grid-column: 1 / -1;">
+                <div class="channel-icon" style="background: rgba(66,103,178,0.15); border-color: #4267B2; color: #4267B2;">
+                  <i class="fab fa-facebook"></i>
+                </div>
+                <div class="channel-info">
+                  <h4>Facebook Page</h4>
+                  <p>facebook.com/share/1MuHEbki7h</p>
+                </div>
+              </a>
+
+              <!-- Factory Address -->
+              <div class="channel-link" style="grid-column: 1 / -1;">
+                <div class="channel-icon">
+                  <i class="fas fa-map-pin"></i>
+                </div>
+                <div class="channel-info">
+                  <h4>Manufacturing Facility</h4>
+                  <p>Small Industrial Estate, Sialkot, Pakistan • Open 24 Hours</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fast Direct Dispatch Card -->
+          <div class="contact-fast-form-card reveal-on-scroll stagger-2">
+            <h3 style="font-family: var(--font-serif); font-size: 1.5rem; color: #fff; margin-bottom: 0.5rem;">Fast Inquiry Dispatch</h3>
+            <p style="font-size: 0.88rem; color: var(--cream-muted); margin-bottom: 1.5rem;">Type your message to send directly to Leather The via WhatsApp or Email:</p>
+
+            <form id="fastInquiryForm" onsubmit="event.preventDefault();">
+              <div class="form-group" style="margin-bottom: 1rem;">
+                <label for="contactSenderName">Your Name / Brand Name</label>
+                <input type="text" id="contactSenderName" class="form-input" placeholder="e.g. Apex Apparel Co." required>
+              </div>
+
+              <div class="form-group" style="margin-bottom: 1rem;">
+                <label for="contactDestination">Your Country</label>
+                <input type="text" id="contactDestination" class="form-input" placeholder="e.g. United States, Germany, UK" required>
+              </div>
+
+              <div class="form-group" style="margin-bottom: 1.4rem;">
+                <label for="contactMessage">Message or Products Inquiring About</label>
+                <textarea id="contactMessage" class="form-textarea" rows="4" placeholder="I'm interested in ordering 50 pcs of LT-01 and 30 pcs of LT-05..." required></textarea>
+              </div>
+
+              <div style="display: flex; gap: 0.8rem; flex-wrap: wrap;">
+                <button type="button" class="btn-primary" id="btnFastWhatsApp" style="flex: 1; justify-content: center;">
+                  <i class="fab fa-whatsapp"></i>
+                  <span>WhatsApp Now</span>
+                </button>
+                <button type="button" class="btn-outline" id="btnFastEmail" style="flex: 1; justify-content: center;">
+                  <i class="fas fa-envelope"></i>
+                  <span>Send Email</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       WHOLESALE ORDER BUILDER & QUOTE DRAWER (Slide-Out)
+       ========================================================================== -->
+  <div class="quote-drawer-backdrop" id="quoteDrawerBackdrop">
+    <div class="quote-drawer" id="quoteDrawer">
+      <div class="drawer-header">
+        <div class="drawer-title-wrap">
+          <h3>Wholesale Order Builder</h3>
+          <p>Instant 1-Click WhatsApp Quote Generator</p>
+        </div>
+        <button class="drawer-close-btn" id="closeDrawerBtn" aria-label="Close wholesale drawer">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div class="drawer-content">
+        <!-- Selected Items List -->
+        <div class="quote-items-list" id="quoteItemsList">
+          <!-- Dynamically populated via js/app.js -->
+        </div>
+
+        <!-- Order Form Fields -->
+        <div class="quote-form-section">
+          <div class="form-group">
+            <label for="orderCountry">Destination Country</label>
+            <input type="text" id="orderCountry" class="form-input" placeholder="e.g. United Kingdom, USA, Australia" value="United States">
+          </div>
+
+          <div class="form-group">
+            <label for="orderNotes">Custom Branding / Notes</label>
+            <textarea id="orderNotes" class="form-textarea" rows="2" placeholder="e.g. Add custom woven neck labels, requested sizes S-XL..."></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="drawer-footer">
+        <button class="btn-whatsapp-order" id="btnSendWhatsApp">
+          <i class="fab fa-whatsapp"></i>
+          <span>Send Order Directly on WhatsApp</span>
+        </button>
+
+        <div style="display: flex; gap: 0.5rem;">
+          <button class="btn-email-order" id="btnSendEmail" style="flex: 1;">
+            <i class="fas fa-envelope"></i> Send Email
+          </button>
+          <button class="btn-email-order" id="btnCopyOrder" style="flex: 1;">
+            <i class="fas fa-copy"></i> Copy Order
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       PRODUCT DETAIL LIGHTBOX MODAL
+       ========================================================================== -->
+  <div class="modal-backdrop" id="productModalBackdrop">
+    <div class="product-modal-dialog">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Product Lightbox">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <div class="modal-media-col">
+        <img src="" alt="" id="modalProductImg" class="modal-media-img">
+      </div>
+
+      <div class="modal-info-col">
+        <div>
+          <div class="modal-badge-row">
+            <span class="product-code-pill" id="modalProductCode">LT-01</span>
+            <span class="product-badge-pill" id="modalProductBadge">Iconic Bestseller</span>
+          </div>
+
+          <h2 class="modal-title" id="modalProductTitle">Product Title</h2>
+          <p class="modal-desc" id="modalProductDesc">Product full description</p>
+
+          <h4 style="font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gold); margin-bottom: 0.6rem;">Specifications & Features:</h4>
+          <ul class="modal-specs-list" id="modalProductSpecs"></ul>
+        </div>
+
+        <div>
+          <div style="display: flex; justify-content: space-between; font-size: 0.82rem; margin-bottom: 1.2rem; padding: 0.75rem 0; border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+            <div><span style="color: var(--text-dim);">Materials:</span> <strong id="modalProductMaterials" style="color: var(--cream);"></strong></div>
+            <div><span style="color: var(--text-dim);">Wholesale MOQ:</span> <strong id="modalProductMoq" style="color: var(--gold-light);"></strong></div>
+          </div>
+
+          <div style="display: flex; gap: 0.8rem; flex-wrap: wrap;">
+            <button class="btn-primary" id="modalAddQuoteBtn" style="flex: 1; justify-content: center;">
+              <i class="fas fa-plus"></i> Add to B2B Quote
+            </button>
+            <button class="btn-outline" id="modalWhatsAppInquiryBtn" style="flex: 1; justify-content: center;">
+              <i class="fab fa-whatsapp" style="color: var(--whatsapp-green);"></i> Direct WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       FLOATING ACTIONS DOCK
+       ========================================================================== -->
+  <div class="floating-actions-dock">
+    <a href="https://wa.me/923424974551?text=Hello%20Leather%20The!%20I%20would%20like%20to%20place%20an%20order." 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       class="floating-wa-btn" 
+       id="floatingWhatsAppBtn" 
+       title="Chat on WhatsApp (+923424974551)"
+       aria-label="Direct WhatsApp Contact">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem;">
+            <img src="assets/images/LeatherThe-logo.jpg" alt="Leather The" style="width: 40px; height: 40px; border-radius: 6px; border: 1px solid var(--border-gold); object-fit: cover;">
+            <span style="font-family: var(--font-serif); font-size: 1.2rem; font-weight: 700; color: #fff; letter-spacing: 0.15em;">LEATHER THE</span>
+          </div>
+          <p style="font-size: 0.88rem; color: var(--cream-muted); line-height: 1.7; margin-bottom: 1rem;">
+            Design-oriented and innovative leather goods manufacturer based in Small Industrial Estate, Sialkot, Pakistan. Handcrafted leather jackets, winter hoodies, and gloves exported worldwide.
+          </p>
+          <div style="display: flex; gap: 0.8rem;">
+            <a href="https://instagram.com/leatherthe_" target="_blank" rel="noopener noreferrer" style="color: var(--cream-muted); font-size: 1.1rem;"><i class="fab fa-instagram"></i></a>
+            <a href="https://tiktok.com/@leatherthe_" target="_blank" rel="noopener noreferrer" style="color: var(--cream-muted); font-size: 1.1rem;"><i class="fab fa-tiktok"></i></a>
+            <a href="https://facebook.com/share/1MuHEbki7h" target="_blank" rel="noopener noreferrer" style="color: var(--cream-muted); font-size: 1.1rem;"><i class="fab fa-facebook"></i></a>
+            <a href="https://wa.me/923424974551" target="_blank" rel="noopener noreferrer" style="color: var(--whatsapp-green); font-size: 1.1rem;"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Catalog Lines</h4>
+          <ul class="footer-links">
+            <li><a href="#catalog">Men’s Jackets (LT-01 to LT-04)</a></li>
+            <li><a href="#catalog">Women’s Jackets (LT-05 to LT-08)</a></li>
+            <li><a href="#catalog">Winter Hoodies (LT-09 to LT-12)</a></li>
+            <li><a href="#catalog">Men’s Gloves (LT-13 to LT-16)</a></li>
+            <li><a href="#catalog">Women’s Gloves (LT-17 to LT-20)</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Factory Services</h4>
+          <ul class="footer-links">
+            <li><a href="#bespoke">Bespoke Customizer</a></li>
+            <li><a href="#pillars">Lowest MOQ Policy</a></li>
+            <li><a href="#craftsmanship">Sialkot Craftsmanship</a></li>
+            <li><a href="#how-to-order">Wholesale Workflow</a></li>
+            <li><a href="#contact">24/7 Factory Dispatch</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Headquarters</h4>
+          <p style="font-size: 0.88rem; color: var(--cream-muted); line-height: 1.6; margin-bottom: 0.6rem;">
+            <strong style="color: #fff;">Small Industrial Estate</strong><br>
+            Sialkot, Punjab, Pakistan
+          </p>
+          <p style="font-size: 0.88rem; color: var(--cream-muted); line-height: 1.6; margin-bottom: 0.6rem;">
+            <strong>WhatsApp:</strong> +92 342 4974551<br>
+            <strong>Email:</strong> leatherthe78@gmail.com
+          </p>
+          <p style="font-size: 0.82rem; color: var(--gold-light);">
+            <i class="fas fa-clock"></i> Operating 24 Hours / 7 Days
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <span>&copy; 2026 Leather The. All rights reserved. Sialkot, Pakistan.</span>
+        <span>Crafted for high-end international bespoke & wholesale leather trade.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Fast Inquiry Form Script Wiring -->
+  <script>
+    document.getElementById('btnFastWhatsApp')?.addEventListener('click', () => {
+      const name = document.getElementById('contactSenderName')?.value || 'Prospective Partner';
+      const country = document.getElementById('contactDestination')?.value || 'International';
+      const msg = document.getElementById('contactMessage')?.value || 'Inquiring about wholesale catalog';
+      const text = encodeURIComponent(`Hello Leather The! My name is ${name} from ${country}. ${msg}`);
+      window.open(`https://wa.me/923424974551?text=${text}`, '_blank');
+    });
+
+    document.getElementById('btnFastEmail')?.addEventListener('click', () => {
+      const name = document.getElementById('contactSenderName')?.value || 'Prospective Partner';
+      const country = document.getElementById('contactDestination')?.value || 'International';
+      const msg = document.getElementById('contactMessage')?.value || 'Inquiring about wholesale catalog';
+      const subject = encodeURIComponent(`Inquiry from ${name} (${country})`);
+      const body = encodeURIComponent(`Hello Leather The Team,\n\nName: ${name}\nCountry: ${country}\n\nMessage:\n${msg}`);
+      window.location.href = `mailto:leatherthe78@gmail.com?subject=${subject}&body=${body}`;
+    });
+  </script>
+
+  <!-- Main ES Module Script -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
